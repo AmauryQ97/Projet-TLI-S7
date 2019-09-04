@@ -1,0 +1,28 @@
+body {
+ font-family:"trebuchet ms",sans-serif;
+ font-size:90%;
+ }
+form {
+ background-color:#FAFAFA;
+
+ }
+ 
+label {
+ margin-top:10px;
+ display:block;
+ margin-right:20px;
+ 
+ }
+
+input, textarea, select, option {
+ background-color:#FFF3F3;
+ }
+
+input:focus, textarea:focus {
+ background-color:white;
+ }
+<?php
+
+  
+
+?>
