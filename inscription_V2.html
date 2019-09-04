@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Inscription</title>
+		<link rel="stylesheet" href="inscription.css">
+	</head>
+	
+	<body>
+	<h1 id ="no_titre">Inscription</h1>
+	
+	
+	<form id="inscription" action="inscription.php" method="POST">
+	  <label>Nom :
+	  <input type="text" name="nom" required></label> <br/>
+	  <label>Prénom :</label> 
+	  <input type="text" name="prenom" required><br/>
+	  <label>Adresse mail :</label> 
+	  <input type="email" name="mail" pattern="+@+" required><br/>
+	  <label>Profession :</label>
+	  <input type="text" name="profession" required> <br/>
+	  <label>Nom utilisateur :</label>
+	  <input type="text" name="utilisateur" required><br/>
+	  <label>Mot de passe :</label>
+	  <input type="password" name="mot de passe" required><br/>
+	 
+	 
+	  <button type="reset">Annuler</button>
+	  <button type="submit">Inscription</button>
+	  </form>
+	  </body>
+	  
+</html>
